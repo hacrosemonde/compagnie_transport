@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+*{font-family: Ubuntu;}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color:white; */
+    border: 8cap;
+    padding: 1rem 3rem;
+    margin-bottom: 5rem;
+    /* background-color:  rgba(206, 199, 199, 0.199); */
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.image img {
+    max-width: 70px ;
+}
+.menu ul {
+    display: flex;
+    gap: 55px;
+}
+header li{
+    cursor: pointer;
+    list-style: none;
+}
+
+
+.tete {
+    background-color:  black;
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+}
+section{
+    padding: 0 40px ;
+}
+
+.text1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.o, .ooo {
+    text-align: left;
+}
+.oo {
+    text-align: right;
+}
+.prem {
+    transform: rotate(180deg);
+}
+.image_undraw img{
+    max-width: 200px;
+}
+.offre {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.offre h1 {
+    color: black;
+    padding: 10px 20px;
+}
+@keyframes alt {
+    0% {
+        color: white;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: black;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffe601e3;
+}
+
+.table_section a{
+    /* background-color: #ffe601e3; */
+    color: black;
+    padding: 10px 0;
+    border-radius: 7px;
+}
+
+.voir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+}
+.voir:hover {
+    background-color: rgb(11, 189, 11);
+}
+
+.item .im-item img {
+    border-radius: 10px;
+    max-width: 400px;
+    max-height: 250px;
+}
+
+.items {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5rem;
+}
+
+.item {
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+}
+footer img{
+    max-width: 40px;
+    border-radius: 30px;
+}
+footer {
+    display: grid;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+footer ul {
+    display: flex;    
+    gap: 20px;
+}
+
+footer li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    color: white;
+}

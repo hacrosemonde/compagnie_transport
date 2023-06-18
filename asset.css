@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+*{font-family: Ubuntu;}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color:white; */
+    border: 8cap;
+    padding: 1rem 3rem;
+    margin-bottom: 5rem;
+    background-color:  rgba(206, 199, 199, 0.199);
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+.image img {
+    max-width: 70px ;
+}
+.menu ul {
+    display: flex;
+    gap: 55px;
+}
+header li{
+    cursor: pointer;
+    list-style: none;
+}
+.name  {
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    margin: 0 0 4rem 0;
+}
+
+.content img {
+    /* background-color: #ffe601e3; */
+}
+
+img{
+    max-width: 1000px;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inter {
+    margin: 7rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    margin-bottom: 3rem;
+    display: grid;
+}
+
+button {
+    margin: 20px 0;
+    border: none;
+    font-size: 20px;
+    padding: 10px ;
+    border-radius: 5px;
+    background-color: #ffe601e3;
+}
+h2{
+    display: flex;
+    text-decoration: wavy;
+}
+footer img{
+    max-width: 40px;
+    border-radius: 30px;
+}
+footer {
+    display: grid;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+footer ul {
+    display: flex;    
+    gap: 20px;
+}
+
+footer li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    color: white;
+}
+input {
+    padding: 10px 5px;
+    margin: 10px 0;
+}
